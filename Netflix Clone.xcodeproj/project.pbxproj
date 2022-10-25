@@ -12,6 +12,10 @@
 		FADC995C29084DE6002E7367 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC995B29084DE6002E7367 /* MainTabBarViewController.swift */; };
 		FADC996129084DE7002E7367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADC996029084DE7002E7367 /* Assets.xcassets */; };
 		FADC996429084DE7002E7367 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC996229084DE7002E7367 /* LaunchScreen.storyboard */; };
+		FADC996C290850B0002E7367 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC996B290850B0002E7367 /* HomeViewController.swift */; };
+		FADC996F290850F2002E7367 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC996E290850F2002E7367 /* UpcomingViewController.swift */; };
+		FADC99712908510E002E7367 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC99702908510E002E7367 /* SearchViewController.swift */; };
+		FADC99732908513C002E7367 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC99722908513C002E7367 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		FADC996029084DE7002E7367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FADC996329084DE7002E7367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FADC996529084DE7002E7367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADC996B290850B0002E7367 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FADC996E290850F2002E7367 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		FADC99702908510E002E7367 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FADC99722908513C002E7367 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 		FADC995629084DE6002E7367 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				FADC996D290850C9002E7367 /* Controllers */,
 				FADC995729084DE6002E7367 /* AppDelegate.swift */,
 				FADC995929084DE6002E7367 /* SceneDelegate.swift */,
 				FADC995B29084DE6002E7367 /* MainTabBarViewController.swift */,
@@ -62,6 +71,17 @@
 				FADC996529084DE7002E7367 /* Info.plist */,
 			);
 			path = "Netflix Clone";
+			sourceTree = "<group>";
+		};
+		FADC996D290850C9002E7367 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FADC996B290850B0002E7367 /* HomeViewController.swift */,
+				FADC996E290850F2002E7367 /* UpcomingViewController.swift */,
+				FADC99702908510E002E7367 /* SearchViewController.swift */,
+				FADC99722908513C002E7367 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADC99712908510E002E7367 /* SearchViewController.swift in Sources */,
 				FADC995C29084DE6002E7367 /* MainTabBarViewController.swift in Sources */,
+				FADC99732908513C002E7367 /* DownloadsViewController.swift in Sources */,
 				FADC995829084DE6002E7367 /* AppDelegate.swift in Sources */,
 				FADC995A29084DE6002E7367 /* SceneDelegate.swift in Sources */,
+				FADC996F290850F2002E7367 /* UpcomingViewController.swift in Sources */,
+				FADC996C290850B0002E7367 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
