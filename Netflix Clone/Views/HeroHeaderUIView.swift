@@ -46,8 +46,7 @@ class HeroHeaderUIView: UIView {
         layer.addSublayer(gradientLayer)
         gradientLayer.frame = bounds
     }
-    
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         addSubview(heroImageView)
@@ -56,8 +55,6 @@ class HeroHeaderUIView: UIView {
         addSubview(downloadButton)
         applyConstraints()
     }
-    
-    
     
     private func applyConstraints() {
         let playButtonConstraints = [
@@ -84,5 +81,5 @@ class HeroHeaderUIView: UIView {
     required init?(coder: NSCoder) {
         fatalError()
     }
-
+    
 }

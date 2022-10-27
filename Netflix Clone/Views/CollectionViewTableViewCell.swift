@@ -8,12 +8,9 @@
 import UIKit
 
 class CollectionViewTableViewCell: UITableViewCell {
-    
-    
+
     static let identifier = "CollectionViewTableViewCell"
-    
-    
-    
+
     private let collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -31,8 +28,7 @@ class CollectionViewTableViewCell: UITableViewCell {
         collectionView.delegate = self
         collectionView.dataSource = self
     }
-    
-    
+
     required init?(coder:NSCoder) {
         fatalError()
     }
