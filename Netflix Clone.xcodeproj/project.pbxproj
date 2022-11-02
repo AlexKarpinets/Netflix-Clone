@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		FA7118C62909A413000E6E94 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7118C52909A413000E6E94 /* HeroHeaderUIView.swift */; };
+		FAA98A302912C6B3006257F8 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA98A2F2912C6B3006257F8 /* APICaller.swift */; };
+		FAA98A322912CBED006257F8 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA98A312912CBED006257F8 /* Movie.swift */; };
 		FADC995829084DE6002E7367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC995729084DE6002E7367 /* AppDelegate.swift */; };
 		FADC995A29084DE6002E7367 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC995929084DE6002E7367 /* SceneDelegate.swift */; };
 		FADC995C29084DE6002E7367 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC995B29084DE6002E7367 /* MainTabBarViewController.swift */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		FA7118C52909A413000E6E94 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		FAA98A2F2912C6B3006257F8 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		FAA98A312912CBED006257F8 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		FADC995429084DE6002E7367 /* Netflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Netflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADC995729084DE6002E7367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FADC995929084DE6002E7367 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 		FADC99742908586B002E7367 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FAA98A312912CBED006257F8 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 		FADC997529085876002E7367 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FAA98A2F2912C6B3006257F8 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -195,11 +201,13 @@
 				FADC99712908510E002E7367 /* SearchViewController.swift in Sources */,
 				FADC995C29084DE6002E7367 /* MainTabBarViewController.swift in Sources */,
 				FADC997929085DD7002E7367 /* CollectionViewTableViewCell.swift in Sources */,
+				FAA98A302912C6B3006257F8 /* APICaller.swift in Sources */,
 				FA7118C62909A413000E6E94 /* HeroHeaderUIView.swift in Sources */,
 				FADC99732908513C002E7367 /* DownloadsViewController.swift in Sources */,
 				FADC995829084DE6002E7367 /* AppDelegate.swift in Sources */,
 				FADC995A29084DE6002E7367 /* SceneDelegate.swift in Sources */,
 				FADC996F290850F2002E7367 /* UpcomingViewController.swift in Sources */,
+				FAA98A322912CBED006257F8 /* Movie.swift in Sources */,
 				FADC996C290850B0002E7367 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
