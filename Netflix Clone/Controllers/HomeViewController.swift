@@ -10,7 +10,7 @@ import UIKit
 class HomeViewController: UIViewController {
     
     
-    let sectionTitles = ["Top movies", "Trending TV", "Popular", "Upcoming Movies", "Top Rated"]
+    let sectionTitles = ["Top 250 movies", "Top 250 TV's", "Popular", "Coming Soon", "In Theaters"]
     
     private let homeFeedTable: UITableView = {
         let table = UITableView(frame: .zero, style: .grouped)
@@ -25,11 +25,11 @@ class HomeViewController: UIViewController {
         
         homeFeedTable.delegate = self
         homeFeedTable.dataSource = self
+        configureNavbar()
+        getTopMovies()
         
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = headerView
-        configureNavbar()
-        getTopMovies()
     }
     
     private func configureNavbar() {
@@ -48,7 +48,7 @@ class HomeViewController: UIViewController {
     }
     
     private func getTopMovies() {
-        APICaller.shared.getTopMovies { items in
+        APICaller.shared.getInTheaters { items in
             switch items {
             case .success(let movies):
                 print(movies)
